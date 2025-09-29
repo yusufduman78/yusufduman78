@@ -16,7 +16,7 @@
 
 ### 🛠️ Kullandığım Teknolojiler
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=python,java,c,cs,pytorch,numpy,pandas,scikitlearn,git,github" />
+  <img src="https://skillicons.dev/icons?i=python,java,c,cs,pytorch,anaconda,scikitlearn,git,github" />
 </p>
 
 ---
