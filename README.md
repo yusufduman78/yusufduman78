@@ -23,8 +23,8 @@
 
 ### 📊 GitHub İstatistiklerim
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yusufduman78&show_icons=true&theme=radical" alt="github stats" height="150"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yusufduman78&layout=compact&theme=radical" alt="top langs" height="150"/>
+<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=yusufduman78&show_icons=true&theme=radical" height="150"/>
+<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=yusufduman78&layout=compact&theme=radical" height="150"/>
 </p>
 
 ---
@@ -47,7 +47,7 @@
 
 ### 🌐 Bana Ulaşın
 <p align="left">
-  <a href="https://www.linkedin.com/in/yusuf-duman-890657294/" target="_blank">
+  <a href="https://www.linkedin.com/in/yusufduman78/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
   <a href="mailto:yusuf78duman@gmail.com">
