@@ -37,6 +37,7 @@
 ---
 
 ### 📌 Öne Çıkan Projelerim 
+- [📂 **Fashion-Recommender**](https://github.com/isobed18/fashion-recommender)
 - [📂 **ML_algorithms_and_EDA**](https://github.com/yusufduman78/MachineLearningAlgorithms) 
 - [📂 **Diet_Assistant**](https://github.com/yusufduman78/diet-assistant) 
 - [📂 **Restoran_Yonetim_Sistemi**](https://github.com/isobed18/RestoranYonetimSistemi) 
