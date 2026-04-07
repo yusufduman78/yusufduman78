@@ -1,5 +1,4 @@
 <h1 align="center">👋 Merhaba, ben Yusuf Duman</h1>
-
 <p align="center">
   <b>Gazi Üniversitesi Bilgisayar Mühendisliği 3. sınıf öğrencisi | Yapay Zeka ile ilgileniyorum</b>
 </p>
@@ -7,10 +6,10 @@
 ---
 
 ### 🚀 Hakkımda
-- 🎓 Gazi Üniversitesi **Bilgisayar Mühendisliği 3. sınıf öğrencisiyim**.  
-- 🤖 Yapay zeka alanına ilgi duyuyorum ve bu alanda kendimi geliştirmek için projeler yapıyorum.  
-- 📚 Eğitimlere ve bootcamplere katılarak bilgi birikimimi artırıyorum.  
-- 🌱 Sürekli öğrenmeye ve yeni teknolojileri keşfetmeye açığım.  
+- 🎓 **Gazi Üniversitesi Bilgisayar Mühendisliği** 3. sınıf öğrencisiyim.
+- 🤖 Yapay zeka alanına ilgi duyuyorum ve bu alanda projeler geliştiriyorum.
+- 📚 Eğitimlere, bootcamplere katılarak kendimi sürekli geliştiriyorum.
+- 🌱 Yeni teknolojileri öğrenmeye ve uygulamaya açığım.
 
 ---
 
@@ -23,25 +22,25 @@
 
 ### 📊 GitHub İstatistiklerim
 <p align="center">
-<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=yusufduman78&show_icons=true&theme=radical" height="150"/>
-<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=yusufduman78&layout=compact&theme=radical" height="150"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=yusufduman78&show_icons=true&theme=radical&hide_border=true" height="150" alt="Stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yusufduman78&layout=compact&theme=radical&hide_border=true" height="150" alt="Top Languages"/>
 </p>
 
 ---
 
 ### 📈 Aktivite Grafiğim
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yusufduman78&theme=react-dark&hide_border=true" width="95%"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yusufduman78&theme=react-dark&hide_border=true&area=true" width="95%" alt="Activity Graph"/>
 </p>
 
 ---
 
-### 📌 Öne Çıkan Projelerim 
+### 📌 Öne Çıkan Projelerim
 - [📂 **Fashion-Recommender**](https://github.com/isobed18/fashion-recommender)
-- [📂 **ML_algorithms_and_EDA**](https://github.com/yusufduman78/MachineLearningAlgorithms) 
-- [📂 **Diet_Assistant**](https://github.com/yusufduman78/diet-assistant) 
-- [📂 **Restoran_Yonetim_Sistemi**](https://github.com/isobed18/RestoranYonetimSistemi) 
-- [📂 **Yuz_Tanimayla_Devamsizlik**](https://github.com/isobed18/YuzTanimaylaDevamsizlikOtomasyon) 
+- [📂 **ML_algorithms_and_EDA**](https://github.com/yusufduman78/MachineLearningAlgorithms)
+- [📂 **Diet_Assistant**](https://github.com/yusufduman78/diet-assistant)
+- [📂 **Restoran_Yonetim_Sistemi**](https://github.com/isobed18/RestoranYonetimSistemi)
+- [📂 **Yuz_Tanimayla_Devamsizlik**](https://github.com/isobed18/YuzTanimaylaDevamsizlikOtomasyon)
 
 ---
 
