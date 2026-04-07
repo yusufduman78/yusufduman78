@@ -14,9 +14,8 @@
 ### 🚀 Hakkımda
 - 🎓 **Gazi Üniversitesi** Bilgisayar Mühendisliği 3. sınıf öğrencisiyim.
 - 🤖 Yapay zeka, makine öğrenmesi ve derin öğrenme üzerine projeler geliştiriyorum.
-- 📚 Bootcampler, online eğitimler ve kişisel çalışmalarla kendimi sürekli geliştiriyorum.
-- 🌱 Şu anda **PyTorch**, **Computer Vision** ve **NLP** alanlarında derinleşiyorum.
-- ⚡ Hedefim: Gerçek dünya problemlerine çözüm üreten AI uygulamaları oluşturmak.
+- 📚 Bootcampler ve kişisel çalışmalarla kendimi geliştiriyorum.
+- 🌱 Şu anda **PyTorch**, **Computer Vision** ve **NLP** alanlarında ilerliyorum.
 
 ---
 
@@ -27,15 +26,18 @@
 
 ---
 
-### 🏆 GitHub İstatistiklerim
+### 📊 GitHub İstatistiklerim
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yusufduman78&show_icons=true&theme=radical&hide_border=true&include_all_commits=true" height="160" alt="Stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yusufduman78&layout=compact&theme=radical&hide_border=true" height="160" alt="Top Languages"/>
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=yusufduman78&show_icons=true&theme=radical&hide_border=true&include_all_commits=true" height="165" alt="Stats"/>
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=yusufduman78&layout=compact&theme=radical&hide_border=true" height="165" alt="Top Languages"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yusufduman78&theme=radical&hide_border=true" height="160" alt="Streak Stats"/>
+  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=yusufduman78&theme=radical&hide_border=true" height="165" alt="Streak Stats"/>
+</p>
+
+<p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=yusufduman78&theme=radical&no-frame=true&margin-w=15" alt="Trophies"/>
 </p>
 
@@ -50,10 +52,10 @@
 
 ### 📌 Öne Çıkan Projelerim
 - **[Fashion-Recommender](https://github.com/isobed18/fashion-recommender)** — AI tabanlı moda öneri sistemi
-- **[Machine Learning Algorithms & EDA](https://github.com/yusufduman78/MachineLearningAlgorithms)** — Klasik ML algoritmaları ve veri analizi uygulamaları
-- **[Diet_Assistant](https://github.com/yusufduman78/diet-assistant)** — Beslenme asistanı projesi
-- **[Restoran Yönetim Sistemi](https://github.com/isobed18/RestoranYonetimSistemi)** — Tam kapsamlı restoran otomasyonu
-- **[Yüz Tanıma ile Devamsızlık Otomasyonu](https://github.com/isobed18/YuzTanimaylaDevamsizlikOtomasyon)** — Yüz tanıma teknolojisiyle devamsızlık takibi
+- **[Machine Learning Algorithms & EDA](https://github.com/yusufduman78/MachineLearningAlgorithms)**
+- **[Diet_Assistant](https://github.com/yusufduman78/diet-assistant)**
+- **[Restoran Yönetim Sistemi](https://github.com/isobed18/RestoranYonetimSistemi)**
+- **[Yüz Tanıma ile Devamsızlık Otomasyonu](https://github.com/isobed18/YuzTanimaylaDevamsizlikOtomasyon)**
 
 ---
 
@@ -66,8 +68,6 @@
     <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
 </p>
-
----
 
 <p align="center">
   <i>⭐ Projelerimi beğenirsen yıldız vermeyi unutma!</i>
