@@ -1,34 +1,47 @@
-<h1 align="center">👋 Merhaba, ben Yusuf Duman</h1>
+<h1 align="center">👋 Merhaba, Ben Yusuf Duman</h1>
+
 <p align="center">
-  <b>Gazi Üniversitesi Bilgisayar Mühendisliği 3. sınıf öğrencisi | Yapay Zeka ile ilgileniyorum</b>
+  <b>Gazi Üniversitesi Bilgisayar Mühendisliği 3. sınıf öğrencisi</b><br>
+  <b>🤖 Yapay Zeka ve Makine Öğrenmesi tutkunu</b>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=yusufduman78&label=Profile%20Views&color=0A66C2&style=flat-square" alt="Profile Views"/>
 </p>
 
 ---
 
 ### 🚀 Hakkımda
-- 🎓 **Gazi Üniversitesi Bilgisayar Mühendisliği** 3. sınıf öğrencisiyim.
-- 🤖 Yapay zeka alanına ilgi duyuyorum ve bu alanda projeler geliştiriyorum.
-- 📚 Eğitimlere, bootcamplere katılarak kendimi sürekli geliştiriyorum.
-- 🌱 Yeni teknolojileri öğrenmeye ve uygulamaya açığım.
+- 🎓 **Gazi Üniversitesi** Bilgisayar Mühendisliği 3. sınıf öğrencisiyim.
+- 🤖 Yapay zeka, makine öğrenmesi ve derin öğrenme üzerine projeler geliştiriyorum.
+- 📚 Bootcampler, online eğitimler ve kişisel çalışmalarla kendimi sürekli geliştiriyorum.
+- 🌱 Şu anda **PyTorch**, **Computer Vision** ve **NLP** alanlarında derinleşiyorum.
+- ⚡ Hedefim: Gerçek dünya problemlerine çözüm üreten AI uygulamaları oluşturmak.
 
 ---
 
 ### 🛠️ Kullandığım Teknolojiler
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=python,java,c,cs,pytorch,anaconda,scikitlearn,git,github" />
-</p>
-
----
-
-### 📊 GitHub İstatistiklerim
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yusufduman78&show_icons=true&theme=radical&hide_border=true" height="150" alt="Stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yusufduman78&layout=compact&theme=radical&hide_border=true" height="150" alt="Top Languages"/>
+  <img src="https://skillicons.dev/icons?i=python,java,c,cs,pytorch,tensorflow,opencv,scikitlearn,numpy,pandas,git,github,anaconda,vscode&perline=8" />
 </p>
 
 ---
 
-### 📈 Aktivite Grafiğim
+### 🏆 GitHub İstatistiklerim
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=yusufduman78&show_icons=true&theme=radical&hide_border=true&include_all_commits=true" height="160" alt="Stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yusufduman78&layout=compact&theme=radical&hide_border=true" height="160" alt="Top Languages"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yusufduman78&theme=radical&hide_border=true" height="160" alt="Streak Stats"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=yusufduman78&theme=radical&no-frame=true&margin-w=15" alt="Trophies"/>
+</p>
+
+---
+
+### 📈 Katkı Aktivitem
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=yusufduman78&theme=react-dark&hide_border=true&area=true" width="95%" alt="Activity Graph"/>
 </p>
@@ -36,20 +49,26 @@
 ---
 
 ### 📌 Öne Çıkan Projelerim
-- [📂 **Fashion-Recommender**](https://github.com/isobed18/fashion-recommender)
-- [📂 **ML_algorithms_and_EDA**](https://github.com/yusufduman78/MachineLearningAlgorithms)
-- [📂 **Diet_Assistant**](https://github.com/yusufduman78/diet-assistant)
-- [📂 **Restoran_Yonetim_Sistemi**](https://github.com/isobed18/RestoranYonetimSistemi)
-- [📂 **Yuz_Tanimayla_Devamsizlik**](https://github.com/isobed18/YuzTanimaylaDevamsizlikOtomasyon)
+- **[Fashion-Recommender](https://github.com/isobed18/fashion-recommender)** — AI tabanlı moda öneri sistemi
+- **[Machine Learning Algorithms & EDA](https://github.com/yusufduman78/MachineLearningAlgorithms)** — Klasik ML algoritmaları ve veri analizi uygulamaları
+- **[Diet_Assistant](https://github.com/yusufduman78/diet-assistant)** — Beslenme asistanı projesi
+- **[Restoran Yönetim Sistemi](https://github.com/isobed18/RestoranYonetimSistemi)** — Tam kapsamlı restoran otomasyonu
+- **[Yüz Tanıma ile Devamsızlık Otomasyonu](https://github.com/isobed18/YuzTanimaylaDevamsizlikOtomasyon)** — Yüz tanıma teknolojisiyle devamsızlık takibi
 
 ---
 
 ### 🌐 Bana Ulaşın
-<p align="left">
+<p align="center">
   <a href="https://www.linkedin.com/in/yusufduman78/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
   <a href="mailto:yusuf78duman@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
+</p>
+
+---
+
+<p align="center">
+  <i>⭐ Projelerimi beğenirsen yıldız vermeyi unutma!</i>
 </p>
