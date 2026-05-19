@@ -1,0 +1,42 @@
+name: generate animation
+
+on:
+  # Her 24 saatte bir otomatik çalışır
+  schedule:
+    - cron: "0 */24 * * *" 
+  
+  # İstediğiniz zaman el ile de tetikleyebilirsiniz
+  workflow_dispatch:
+  
+  # Master (veya ana branch adınız neyse, örn: main) branchine her push yapıldığında çalışır
+  push:
+    branches:
+    - master # Eğer ana dalınızın adı 'main' ise burayı main yapın
+    
+
+jobs:
+  generate:
+    permissions: 
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    
+    steps:
+      # GitHub katkı (contribution) grafiğinizden bir yılan oyunu animasyonu (svg) üretir
+      - name: generate github-contribution-grid-snake.svg
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+          
+          
+      # Üretilen animasyonu 'output' adında ayrı bir branch'e (dala) yükler
+      - name: push github-contribution-grid-snake.svg to the output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
