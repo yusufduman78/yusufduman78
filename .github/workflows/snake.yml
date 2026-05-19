@@ -11,7 +11,7 @@ on:
   # Master (veya ana branch adınız neyse, örn: main) branchine her push yapıldığında çalışır
   push:
     branches:
-    - master # Eğer ana dalınızın adı 'main' ise burayı main yapın
+    - main # Eğer ana dalınızın adı 'main' ise burayı main yapın
     
 
 jobs:
