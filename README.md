@@ -19,6 +19,10 @@
 
 ---
 
+![GitHub Contribution graph - snake game](https://raw.githubusercontent.com/yusufduman78/yusufduman78/output/github-contribution-grid-snake.svg)
+
+---
+
 ### 🛠️ Kullandığım Teknolojiler
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,java,c,cs,pytorch,tensorflow,opencv,scikitlearn,numpy,pandas,git,github,anaconda,vscode&perline=8" />
