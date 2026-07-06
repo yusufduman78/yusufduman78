@@ -54,14 +54,6 @@
 
 ---
 
-### 📌 Öne Çıkan Projelerim
-- **[Fashion-Recommender](https://github.com/isobed18/fashion-recommender)** — AI tabanlı moda öneri sistemi
-- **[Machine Learning Algorithms & EDA](https://github.com/yusufduman78/MachineLearningAlgorithms)**
-- **[Diet_Assistant](https://github.com/yusufduman78/diet-assistant)**
-- **[Restoran Yönetim Sistemi](https://github.com/isobed18/RestoranYonetimSistemi)**
-- **[Yüz Tanıma ile Devamsızlık Otomasyonu](https://github.com/isobed18/YuzTanimaylaDevamsizlikOtomasyon)**
-
----
 
 ### 🌐 Bana Ulaşın
 <p align="center">
