@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
+<title id="title">Yusuf Duman</title><desc id="desc">Gazi Üniversitesi Bilgisayar Mühendisliği, 4. sınıf. Agentic AI, LLM, backend ve bilgisayarlı görü.</desc>
+<rect width="1200" height="400" rx="22" fill="#F0F5F1"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<path d="M44 53h26" stroke="#087F67" stroke-width="4" stroke-linecap="round"/>
+<text x="84" y="59" font-size="16" font-weight="700" letter-spacing="3" fill="#4F6861">YUSUFDUMAN78 / GITHUB</text>
+<text x="44" y="167" font-size="80" font-weight="700" letter-spacing="-3" fill="#142C29">Yusuf Duman<tspan fill="#087F67">.</tspan></text>
+<text x="48" y="220" font-size="23" fill="#4F6861">Gazi Üniversitesi · Bilgisayar Mühendisliği · 4. sınıf</text>
+<text x="48" y="275" font-size="21" fill="#142C29">Veriden modele, modelden uygulamaya.</text>
+<rect x="44" y="317" width="668" height="42" rx="21" fill="#E5EEE8"/>
+<text x="65" y="344" font-size="16" font-weight="700" fill="#087F67">AGENTIC AI / LLM</text>
+<circle cx="253" cy="338" r="2" fill="#4F6861"/>
+<text x="273" y="344" font-size="16" font-weight="700" fill="#4F6861">BACKEND</text>
+<circle cx="375" cy="338" r="2" fill="#4F6861"/>
+<text x="395" y="344" font-size="16" font-weight="700" fill="#4F6861">BİLGİSAYARLI GÖRÜ</text>
+<path d="M885 113L990 73" fill="none" stroke="#C5D6CC" stroke-width="2"/><path d="M885 113L877 229" fill="none" stroke="#C5D6CC" stroke-width="2"/><path d="M885 113L983 192" fill="none" stroke="#C5D6CC" stroke-width="2"/><path d="M990 73L1080 145" fill="none" stroke="#C5D6CC" stroke-width="2"/><path d="M990 73L983 192" fill="none" stroke="#C5D6CC" stroke-width="2"/><path d="M1080 145L983 192" fill="none" stroke="#C5D6CC" stroke-width="2"/><path d="M1080 145L1090 263" fill="none" stroke="#C5D6CC" stroke-width="2"/><path d="M877 229L983 192" fill="none" stroke="#C5D6CC" stroke-width="2"/><path d="M877 229L955 315" fill="none" stroke="#C5D6CC" stroke-width="2"/><path d="M983 192L1090 263" fill="none" stroke="#C5D6CC" stroke-width="2"/><path d="M983 192L955 315" fill="none" stroke="#C5D6CC" stroke-width="2"/><path d="M1090 263L955 315" fill="none" stroke="#C5D6CC" stroke-width="2"/><circle cx="885" cy="113" r="5" fill="#087F67" opacity="0.65"/><circle cx="990" cy="73" r="5" fill="#087F67" opacity="0.65"/><circle cx="1080" cy="145" r="5" fill="#087F67" opacity="0.65"/><circle cx="877" cy="229" r="5" fill="#087F67" opacity="0.65"/><circle cx="983" cy="192" r="9" fill="#087F67" opacity="1"/><circle cx="1090" cy="263" r="5" fill="#087F67" opacity="0.65"/><circle cx="955" cy="315" r="5" fill="#087F67" opacity="0.65"/>
+<text x="846" y="364" font-family="monospace" font-size="13" letter-spacing="2" fill="#4F6861">LEARN. BUILD. ITERATE.</text></g></svg>
