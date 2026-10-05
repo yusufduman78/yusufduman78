@@ -1,0 +1,56 @@
+{
+  "username": "yusufduman78",
+  "name": "YUSUF DUMAN",
+  "tagline": "// hello, world — neural.profile",
+  "typing": [
+    "AI / ML Engineer in training",
+    "Computer Vision · NLP · LLM",
+    "RAG pipelines & semantic search",
+    "Gazi Üniversitesi · Bilgisayar Müh."
+  ],
+  "status": "currently training: yusuf_duman.pt",
+  "input_labels": ["data", "code", "coffee", "curiosity"],
+  "output_labels": ["CV", "NLP", "LLM"],
+
+  "training": [
+    {"note": "temeller: C · Java · algoritmalar", "loss": 0.912, "acc": 0.41},
+    {"note": "ML: regresyon · EDA · scikit-learn", "loss": 0.538, "acc": 0.67},
+    {"note": "DL: PyTorch · CNN · FashionCLIP", "loss": 0.214, "acc": 0.86},
+    {"note": "LLM & RAG: Llama 3.3 · ChromaDB", "loss": 0.097, "acc": 0.93}
+  ],
+  "neofetch": [
+    ["Uni", "Gazi Üniversitesi · Bilgisayar Mühendisliği"],
+    ["Focus", "Computer Vision · NLP · LLM / RAG"],
+    ["Stack", "PyTorch · TensorFlow · OpenCV · scikit-learn"],
+    ["Building", "Fashion AI · Semantic Search · Microservices"]
+  ],
+
+  "ignore_languages": ["Jupyter Notebook", "Batchfile", "PowerShell", "Shell", "Makefile", "Dockerfile", "HTML"],
+
+  "projects": {
+    "SemFileX": {
+      "desc": "Yapay zeka destekli dosya gezgini: dökümanların içeriğini anlayan semantik arama ve yerel RAG sohbeti.",
+      "tags": ["RAG", "Llama 3.3", "ChromaDB"]
+    },
+    "WardrobeAware": {
+      "desc": "Kıyafet uyumunu derin öğrenmeyle öğrenen moda öneri sistemi; FashionCLIP ile otomatik kategori tespiti.",
+      "tags": ["Deep Learning", "FashionCLIP", "RecSys"]
+    },
+    "vibe-app": {
+      "desc": "Sosyal moda platformu: 1v1 kombin düelloları, MMR ligleri ve AI gardırop. 4 mikroservis + Nginx gateway.",
+      "tags": ["Microservices", "React Native", "AI"]
+    },
+    "MachineLearningAlgorithms": {
+      "desc": "Sıfırdan Linear Regression ve gerçek veri setleri üzerinde keşifsel veri analizi (kalp hastalığı, kira tahmini).",
+      "tags": ["ML", "EDA", "NumPy"]
+    },
+    "deprem-takip-sistemi": {
+      "desc": "MQTT sensör verisini canlı izleyip deprem anında alarm veren IoT izleme sistemi; Firebase + React panel.",
+      "tags": ["IoT", "MQTT", "Firebase"]
+    },
+    "RestoranYonetimSistemi": {
+      "desc": "Aşçı, garson ve yönetici panelleriyle rol tabanlı restoran yönetim sistemi.",
+      "tags": ["Java", "JavaFX", "OOP"]
+    }
+  }
+}
