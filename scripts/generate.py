@@ -249,30 +249,29 @@ def hero():
     body.append(f'<text class="sans" x="42" y="140" font-size="52" font-weight="800" '
                 f'letter-spacing="3" fill="url(#neon)" filter="url(#glow)">{esc(CONFIG["name"])}</text>')
 
-    # typing carousel (SMIL so it works inside <img>)
-    phrases = CONFIG["typing"]
-    n, T = len(phrases), 4.2 * len(phrases)
-    cw, x0, y0 = 10.4, 70, 186
+    # typing carousel: one <text> per prefix, each shown only in its time slot.
+    # Only opacity is animated, which renders the same in every browser.
+    x0, y0 = 70, 186
     body.append(f'<text class="mono" x="44" y="{y0}" font-size="17" fill="{PINK}">&gt;</text>')
-    defs = []
-    for i, phrase in enumerate(phrases):
-        w = len(phrase) * cw + 4
-        a = i / n
-        b, c, d = a + 0.40 / n, a + 0.85 / n, a + 0.97 / n
-        if i == 0:
-            vals, keys = f"0;{w};{w};0;0", f"0;{b:.4f};{c:.4f};{d:.4f};1"
-        else:
-            vals, keys = f"0;0;{w};{w};0;0", f"0;{a:.4f};{b:.4f};{c:.4f};{d:.4f};1"
-        anim = (f'dur="{T}s" repeatCount="indefinite" values="{{v}}" keyTimes="{keys}"')
-        defs.append(
-            f'<clipPath id="type{i}"><rect x="{x0}" y="{y0-20}" height="28" width="0">'
-            f'<animate attributeName="width" {anim.format(v=vals)}/></rect></clipPath>'
-        )
-        xs = ";".join(str(x0 + float(v)) for v in vals.split(";"))
+    frames = []  # (text, seconds visible)
+    for phrase in CONFIG["typing"]:
+        frames += [(phrase[:k], 0.07) for k in range(1, len(phrase))]
+        frames.append((phrase, 1.9))
+        frames += [(phrase[:k], 0.03) for k in range(len(phrase) - 1, 0, -1)]
+        frames.append(("", 0.35))
+    T = sum(d for _, d in frames)
+    kf, t = {}, 0.0
+    for text, d in frames:
+        name = f"v{round(d * 1000)}"
+        if name not in kf:
+            pct = 100 * d / T
+            kf[name] = (f"@keyframes {name}{{0%,{pct:.4f}%{{opacity:1}}"
+                        f"{pct + 0.0001:.4f}%,100%{{opacity:0}}}}")
         body.append(f'<text class="mono" x="{x0}" y="{y0}" font-size="17" fill="{TEXT}" '
-                    f'clip-path="url(#type{i})">{esc(phrase)}</text>')
-        body.append(f'<rect class="blink" x="{x0}" y="{y0-15}" width="9" height="19" fill="{CYAN}">'
-                    f'<animate attributeName="x" {anim.format(v=xs)}/></rect>')
+                    f'style="opacity:0;animation:{name} {T:.2f}s linear {t:.2f}s infinite">'
+                    f'{esc(text)}<tspan fill="{CYAN}">▌</tspan></text>')
+        t += d
+    defs = []
 
     # status pill
     status = CONFIG["status"]
@@ -298,6 +297,7 @@ def hero():
 .drift2{{animation:drift 18s ease-in-out infinite alternate-reverse}}
 @keyframes drift{{from{{transform:translate(-20px,8px)}}to{{transform:translate(20px,-8px)}}}}
 .shoot{{animation:shoot 9s ease-in infinite;opacity:0}}
+{"".join(kf.values())}
 @keyframes shoot{{0%,80%{{opacity:0;transform:translate(120px,-30px)}}
   83%{{opacity:1}}92%,100%{{opacity:0;transform:translate(520px,100px)}}}}
 {scss}"""
@@ -324,16 +324,16 @@ def terminal(data):
     defs, t, y = [], 0.4, 76
 
     def prompt(cmd, y, start):
-        w = len(cmd) * 8.45 + 4
-        dur = max(0.6, len(cmd) * 0.035)
-        cid = f"cmd{len(defs)}"
-        defs.append(f'<clipPath id="{cid}"><rect x="46" y="{y-16}" height="22" width="0">'
-                    f'<animate attributeName="width" from="0" to="{w}" begin="{start}s" '
-                    f'dur="{dur:.2f}s" fill="freeze"/></rect></clipPath>')
-        body.append(f'<text class="mono" x="26" y="{y}" font-size="14" fill="{PINK}">$</text>'
-                    f'<text class="mono" x="46" y="{y}" font-size="14" fill="{TEXT}" '
-                    f'clip-path="url(#{cid})">{esc(cmd)}</text>')
-        return start + dur + 0.25
+        dt = 0.035
+        body.append(f'<text class="mono" x="26" y="{y}" font-size="14" fill="{PINK}">$</text>')
+        for k in range(1, len(cmd) + 1):
+            last = k == len(cmd)
+            anim = (f"fade .01s linear {start + k*dt:.3f}s forwards" if last
+                    else f"on {dt}s linear {start + k*dt:.3f}s")
+            body.append(f'<text class="mono" x="46" y="{y}" font-size="14" fill="{TEXT}" '
+                        f'style="opacity:0;animation:{anim}">{esc(cmd[:k])}'
+                        + ("" if last else f'<tspan fill="{CYAN}">▌</tspan>') + "</text>")
+        return start + len(cmd) * dt + 0.3
 
     def line(x, y, start, inner, size=14):
         body.append(f'<g class="fade" style="animation-delay:{start:.2f}s">'
@@ -417,6 +417,7 @@ def terminal(data):
     css = f"""
 .fire{{animation:fire 2.4s ease-in-out infinite}}
 @keyframes fire{{0%,100%{{opacity:.55}}50%{{opacity:1}}}}
+@keyframes on{{0%,100%{{opacity:1}}}}
 .shimmer{{opacity:0;animation:shim 1.6s ease-in-out infinite}}
 @keyframes shim{{50%{{opacity:.25}}}}
 {scss}"""

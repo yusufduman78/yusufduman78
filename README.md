@@ -35,9 +35,5 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/yusufduman78/yusufduman78/output/github-contribution-grid-snake-neon.svg" width="100%" alt="Snake eating my contributions"/>
-</p>
-
-<p align="center">
   <img src="assets/footer.svg" width="100%" alt="end of transmission"/>
 </p>
